@@ -16,6 +16,8 @@ st.write("Student admission, retention and satisfaction analysis")
 # Cargar archivo CSV
 df = pd.read_csv("university_student_data.csv")
 
+st.write(df.columns)
+
 # Sidebar filtros
 st.sidebar.header("Filters")
 
